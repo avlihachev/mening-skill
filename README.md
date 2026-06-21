@@ -2,6 +2,8 @@
 
 > your users are starting to live inside an agent. if your app isn't a skill it can load, you don't exist to it. this is mening's.
 
+![Mening corrects a sentence and remembers the pattern: "I går jag gick → gick jag till havet", tagged syntax · V2 word order · seen 4×](./images/mening-correction.jpg)
+
 Run real **language-learning writing practice** from your self-hosted agent
 ([OpenClaw](https://openclaw.ai) / [Hermes Agent](https://hermes-agent.nousresearch.com)).
 One prompt a day in the language you're learning, a correction, and — the part that
@@ -36,6 +38,26 @@ agent: your recurring error patterns:
 - "What's my writing topic today?"
 - "Correct this: <a sentence in your target language>"
 - "What mistakes do I keep making?"
+
+## About Mening — the app behind the skill
+
+[Mening](https://mening.app) is a **daily writing practice app for language learners**.
+It's language-agnostic: practice Swedish, Spanish, German, French, Italian — any language
+you're learning. Each day it sends one short prompt; you write a sentence or two in your
+target language; an LLM **corrects your grammar** and explains what was off.
+
+The difference from a flashcard app or a one-shot grammar checker is **longitudinal error
+tracking**. Mening remembers the specific mistakes you repeat — missing articles, word
+order, verb forms, gender agreement — turns each into a tracked **error pattern**, and aims
+future prompts at your real weak spots. Correction is a commodity; the memory of your
+recurring errors is the product. That's the same record this skill reads back to you inside
+your agent.
+
+- **Daily prompt → write → AI correction**, in any target language
+- **Recurring-mistake memory** — your error patterns tracked over weeks, with a synthesized rule per pattern
+- **Streaks, progress, targeted practice** that aims at your weakest patterns
+- Works in [Telegram](https://t.me/MeningAppBot), web, and iOS — and now your AI agent
+- Free 14-day trial, no card → **[mening.app](https://mening.app?utm_source=github&utm_medium=readme&utm_campaign=mening-skill)**
 
 ## What it does NOT do
 Your token grants full access to your Mening account — treat it like a password. The skill

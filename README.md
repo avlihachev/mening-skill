@@ -59,6 +59,14 @@ your agent.
 - Works in [Telegram](https://t.me/MeningAppBot), web, and iOS — and now your AI agent
 - Free 14-day trial, no card → **[mening.app](https://mening.app?utm_source=github&utm_medium=readme&utm_campaign=mening-skill)**
 
+## Inside Mening
+
+The daily loop, your progress, and the recurring-mistake memory the skill reads back:
+
+| Today | Trends | Progress |
+|---|---|---|
+| ![Mening Today view — the daily prompt and your correction](./images/app-today.png) | ![Mening Trends — level, streak, activity heatmap, words and error-rate charts, and the patterns you're mastering](./images/app-trends.png) | ![Mening achievements and errors by category over the last 30 days](./images/app-progress.png) |
+
 ## What it does NOT do
 Your token grants full access to your Mening account — treat it like a password. The skill
 only reads your prompts/history and submits sentences you write.

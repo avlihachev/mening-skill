@@ -29,7 +29,7 @@ agent: your recurring error patterns:
 ```
 
 ## Setup
-1. Create a free account at https://mening.app?utm_source=github&utm_medium=readme&utm_campaign=mening-skill and pick the language you're learning.
+1. Create a free account at [mening.app](https://mening.app?utm_source=github&utm_medium=readme&utm_campaign=mening-skill) and pick the language you're learning.
 2. Settings → **Developer / API access** → copy your API token.
 3. `export MENING_API_TOKEN=<your token>` (optional `MENING_API_BASE`, default `https://mening.app/api/v1`). Requires `curl` and `jq`.
 4. Drop this folder into `~/.openclaw/skills/mening/` (OpenClaw) or `~/.hermes/skills/mening/` (Hermes).
@@ -73,6 +73,6 @@ only reads your prompts/history and submits sentences you write.
 
 ## Why this exists
 Built to make Mening reachable from the agent platforms people now run their day through.
-The full story: https://lihachev.pro/posts/agent-or-invisible/
+The full story: [Ship a skill or be invisible to the agent](https://lihachev.pro/posts/agent-or-invisible/).
 
 MIT licensed. Issues and PRs welcome.
